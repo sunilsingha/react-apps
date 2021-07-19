@@ -1,0 +1,25 @@
+.an-app {
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  box-shadow: 7px 7px 7px 0px rgba(50, 50, 50, 0.7);
+  color: white;
+  position: relative;
+}
+
+.an-app:active {
+  transform: scale(0.95);
+}
+
+.an-app > p:nth-of-type(2) {
+  font-size: 0.7rem;
+  margin: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
