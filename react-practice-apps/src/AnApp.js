@@ -1,8 +1,13 @@
 import React from "react";
 import "./AnApp.css";
+import { useHistory, Link } from "react-router-dom";
 
 const AnApp = (props) => {
-  const navigateTo = (link) => {};
+  const history = useHistory();
+
+  const navigateTo = (link) => {
+    history.push("/Calc");
+  };
 
   return (
     <div className="an-app" onClick={() => navigateTo(props.app.link)}>
