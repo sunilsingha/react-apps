@@ -4,6 +4,7 @@ import AnApp from "./AnApp";
 import { BrowserRouter, Route } from "react-router-dom";
 
 import Calc from "./React-Apps/Calculator-app/Calc";
+import Todolist from "./React-Apps/ToDolist-app/Todolist";
 
 // what is needed
 // a collection of react apps => we can hold the details in a separate file as array of objects.
@@ -29,6 +30,10 @@ function App() {
         {/* Route is used to show the Component based on the Path value */}
         <Route exact path="/Calc">
           <Calc />
+        </Route>
+
+        <Route exact path="/Todolist">
+          <Todolist />
         </Route>
 
         <Route exact path="/">

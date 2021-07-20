@@ -1,0 +1,33 @@
+.todolist {
+  width: 30rem;
+  border: 1px solid steelblue;
+  margin: 1.5px auto;
+  margin-top: 2rem;
+  background-color: burlywood;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 7px 7px 7px 0px rgba(50, 50, 70, 0.5);
+}
+
+.todolist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
