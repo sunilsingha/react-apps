@@ -2,7 +2,7 @@ import "./App.css";
 import appCollection from "./AppCollection";
 import AnApp from "./AnApp";
 import { BrowserRouter, Route } from "react-router-dom";
-import { Link } from "react-router-dom";
+
 import Calc from "./React-Apps/Calculator-app/Calc";
 
 // what is needed
@@ -12,20 +12,21 @@ import Calc from "./React-Apps/Calculator-app/Calc";
 // add routes to each tile for linking it.
 
 function App() {
+  // use map to return AnApp Component for rendering
   const AllApps = () =>
     appCollection.map((app) => (
       <div key={app.id} className="app">
         <AnApp app={app} />
-
-        {/* <AnApp app={app} /> */}
       </div>
     ));
 
   return (
+    // Browser Router uses HTML5 history api to keep tack of urls
     <BrowserRouter>
       <div className="container">
         <h1>React based apps for practice </h1>
 
+        {/* Route is used to show the Component based on the Path value */}
         <Route exact path="/Calc">
           <Calc />
         </Route>

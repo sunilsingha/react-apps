@@ -1,6 +1,6 @@
 import React from "react";
 import "./AnApp.css";
-import { useHistory, Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 const AnApp = (props) => {
   const history = useHistory();
