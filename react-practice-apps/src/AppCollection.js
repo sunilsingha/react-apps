@@ -10,7 +10,7 @@ const appCollection = [
     id: 2,
     title: "Weather-app",
     description: "Sample react weather app",
-    date: "19th July 2021",
+    date: "21st July 2021",
     component: "/WeatherApp",
   },
   {
