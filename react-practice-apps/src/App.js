@@ -6,6 +6,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Calc from "./React-Apps/Calculator-app/Calc";
 import Todolist from "./React-Apps/ToDolist-app/Todolist";
 import WeatherApp from "./React-Apps/Weather-app/WeatherApp";
+import GreaterIn3 from "./React-Apps/GreaterIn3/GreaterIn3";
 
 // what is needed
 // a collection of react apps => we can hold the details in a separate file as array of objects.
@@ -39,6 +40,10 @@ function App() {
 
         <Route exact path="/WeatherApp">
           <WeatherApp />
+        </Route>
+
+        <Route exact path="/GreaterThan3">
+          <GreaterIn3 />
         </Route>
 
         <Route exact path="/">
