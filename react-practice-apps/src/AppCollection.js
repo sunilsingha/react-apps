@@ -27,6 +27,19 @@ const appCollection = [
     date: "22nd July 2021",
     component: "/GreaterThan3",
   },
+  {
+    id: 5,
+    title: "SOB-EOB Task",
+    description: "Daily Scrum details",
+    date: "24th July 2021",
+    component: "/SobEob",
+  },
+  {
+    id: 6,
+    title: "Redux-Demo",
+    description: "This is a redux demo",
+    component: "/ReduxDemo",
+  },
 ];
 
 export default appCollection;

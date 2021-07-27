@@ -137,7 +137,7 @@ const Calc = () => {
         <div className="calc-inputNum" onClick={inputNum}>
           6
         </div>
-        <div className="calc-inputNum" onClick={inputNum}>
+        <div className="calc-inputNum" onClick={operatorInput}>
           -
         </div>
 
